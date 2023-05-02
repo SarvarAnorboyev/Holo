@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Public+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul,
+li {
+    list-style: none;
+}
+
+
+.hola {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #91916C;
+}
+
+.navbar_list {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 10px;
+}
+
+.navbar_list li {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.girls {
+    width: 60%;
+}
+
+header {
+    margin-top: 100px;
+}
+
+.stop h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 139%;
+    letter-spacing: 0.02em;
+    color: #E5A985;
+}
+
+.stop p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 171%;
+    letter-spacing: 0.02em;
+    color: #4A4747;
+}
+
+.stop button {
+    background: #91916C;
+    border-radius: 0px 8px 8px 0px;
+    padding: 5px 10px;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 135.5%;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.stop input {
+    padding: 10px 40px;
+}
+
+.stop div {
+    margin-top: 100px;
+}
+
+.girl {
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+}
+
+.product h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #91916C;
+    margin-top: 70px;
+}
+
+.product h3 {
+    margin-top: 70px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #65653E;
+}
+
+.product button {
+    background: #E5A985;
+    border-radius: 29px;
+    transform: rotate(-180deg);
+    padding: 5px 10px;
+    border: none;
+}
+
+main {
+    background-color: #E1E1C2;
+    margin-top: 50px;
+}
+
+.product div {
+    display: flex;
+    align-items: center;
+}
+
+.product p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.service h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #91916C;
+}
+
+.service h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #E5A985;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+.women {
+    width: 80%;
+    margin-left: 50px;
+    background: #91916C;
+    box-shadow: 10px 10px 35px 2px rgba(89, 56, 14, 0.1);
+    border-radius: 20px;
+}
+
+.clothes {
+    width: 100%;
+    background: #91916C;
+    box-shadow: 10px 10px 35px 2px rgba(89, 56, 14, 0.1);
+    border-radius: 20px;
+}
+
+.cards p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 138.5%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.cards div {
+    background: #FAE3D8;
+    border-radius: 20px;
+}
+
+
+.online {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.online p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 171.5%;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+.section1 {
+    background: #FFEFE7;
+    margin-top: 50px;
+}
+
+.blog {
+    padding-top: 100px;
+}
+
+.blog h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #BD957E;
+}
+
+.online {
+    padding-top: 50px;
+}
+
+.blog h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #795744;
+}
+.text_1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+    .stop h2 {
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .stop p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .stop input {
+        margin-left: 50px;
+    }
+
+    .stop button {
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+
+    .girls {
+        margin-left: 40px;
+    }
+
+    .product h3 {
+        font-size: 30px;
+    }
+
+    .product div {
+        display: grid;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .service h2 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .girl {
+        margin-left: -30px;
+        margin-right: 0;
+    }
+
+    .service h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+    .cards{
+        display: grid;
+    }
+    .cards div{
+        margin-top: 50px;
+    }
+    .cards p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .blog h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    .online{
+        display: grid;
+    }
+    .online img{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .online p{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+}
